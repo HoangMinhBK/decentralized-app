@@ -5,7 +5,6 @@ import {
   disconnectWallet,
   getTokenSymbolAndBalance,
 } from "./redux/walletSlice";
-import "./App.css";
 import { CONNECTION_STATUS } from "./constants";
 import { getTokenBalance, getTokenSymbol } from "./contract";
 import BigNumber from "bignumber.js";
